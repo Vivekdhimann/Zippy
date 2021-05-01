@@ -1,0 +1,121 @@
+export const DISHES = [
+    {
+        id:125345,
+        time:"6:34 PM",
+        status:"Preparing",
+        username:"Rakesh",
+        orders:[
+            {
+                idd:1, 
+                itemname:"Chicken",
+                no:1,
+                price:10.0
+            },
+            {
+                idd:2, 
+                itemname:"Roll",
+                no:2,
+                price:10.0
+            },
+            {
+                idd:3, 
+                itemname:"Dosa",
+                no:3,
+                price:10.0
+            }
+        ],
+        total:6,
+        totalitemprice:60.0,
+        cashtocollected:0.0,
+        restaurantpromo:12.0,
+        taxes:5.4,
+        totalbill:78.0,
+        orderreadytime:"09.45"
+
+    },
+    {
+        id:125346,
+        time:"6:34 PM",
+        status:"Ready",
+        username:"Rakesh",
+        orders:[
+            {
+                idd:1, 
+                itemname:"Chicken",
+                no:2,
+                price:40.0
+            },
+            {
+                idd:2, 
+                itemname:"Roll",
+                no:2,
+                price:10.0
+            },
+
+        ],
+        total:4,
+        totalitemprice:100.0,
+        cashtocollected:0,
+        restaurantpromo:12.0,
+        taxes:5.4,
+        totalbill:116.0,
+        orderreadytime:"09.45" 
+    },
+    {
+        id:98765,
+        time:"10:34 PM",
+        status:"Ready",
+        username:"Vivek",
+        orders:[
+            {
+                idd:1, 
+                itemname:"burger",
+                no:10,
+                price:40.0
+            },
+            {
+                idd:2, 
+                itemname:"Roll",
+                no:4,
+                price:60.0
+            },
+
+        ],
+        total:14,
+        totalitemprice:640.0,
+        cashtocollected:0,
+        restaurantpromo:12.0,
+        taxes:5.4,
+        totalbill:658.0,
+        orderreadytime:"09.45" 
+    },
+    {
+        id:98764,
+        time:"10:34 PM",
+        status:"Picked",
+        username:"Arun",
+        orders:[
+            {
+                idd:1, 
+                itemname:"burger",
+                no:5,
+                price:40.0
+            },
+            {
+                idd:2, 
+                itemname:"Roll",
+                no:4,
+                price:60.0
+            },
+
+        ],
+        total:9,
+        totalitemprice:440.0,
+        cashtocollected:0,
+        restaurantpromo:12.0,
+        taxes:5.4,
+        totalbill:458.0,
+        orderreadytime:"09.45" 
+    }
+
+]
